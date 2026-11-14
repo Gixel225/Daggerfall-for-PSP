@@ -41,7 +41,7 @@ Triangle — move weapon to the other hand
 Square — quick-drop an item
 Circle or Start — close the inventory
 
-Currently, the game consists only of the Privateer's Hold. Basic mechanics have been implemented, including dungeon exploration, combat, looting, skill and level progression, and death. Exiting the dungeon returns you to the spawn point.
+At the moment, the game includes only Privateer's Hold. Basic mechanics have been implemented, including dungeon exploration, combat, looting, skill and level progression (though I don’t plan on testing this progression system in any serious capacity yet—it was added primarily to support the loot system), and character death. Upon exiting the dungeon, you are returned to the starting point.
 
 There are some differences compared to the original game. Specifically, once the music in a dungeon ends, it will be replaced by a track chosen at random from a pool of dungeon-themed pieces and the loot here is a bit more random than in the original. An agent implemented this, and I decided to keep it.
 
