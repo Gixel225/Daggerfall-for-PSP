@@ -2,7 +2,7 @@ Made with Gemini and some help by Opus, GLM and Deepseek.
 
 Copy the folder from the archive to /PSP/GAME. The program looks for the TES II files (the `arena2` and `music` directories) relative to the folder from which it is launched.
 
-Controls (with the HUD hidden)
+CONTROLS (WITH THE HUD HIDDEN)
 
 Analog stick — move forward/backward and strafe left/right
 
@@ -24,7 +24,7 @@ Select — show/hide the HUD
 
 L + Select — noclip mode
 
-With the HUD visible
+CONTROLS (WITH THE HUD VISIBLE)
 
 Use the D-Pad to select icons
 
@@ -50,7 +50,7 @@ Scroll — 3D dungeon map
 
 Campfire — rest
 
-Inventory
+INVENTORY
 
 Navigate using the D-Pad
 
@@ -61,6 +61,8 @@ Triangle — move weapon to the other hand
 Square — quick-drop an item
 
 Circle or Start — close the inventory
+
+
 
 At the moment, the game includes only Privateer's Hold. Basic mechanics have been implemented, including dungeon exploration, combat, looting, skill and level progression (though I don’t plan on testing this progression system in any serious capacity yet—it was added primarily to support the loot system), and character death. Upon exiting the dungeon, you are returned to the starting point. 
 
