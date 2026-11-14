@@ -23,11 +23,11 @@ X — select
 
 Portrait — character sheet
 Options — settings menu
-Book — spellbook
-Eye — environment interaction mode (cycle options using Square)
+Orb — spellbook
+Hand/eye/etc — environment interaction mode (cycle options using Square)
 Sacks — inventory
 Swords — attack
-Orb — repeat active spell
+Hand with magic stick — repeat active spell
 Feet — movement mode (Walk/Run/Sneak)
 Scroll — 3D dungeon map
 Campfire — rest
