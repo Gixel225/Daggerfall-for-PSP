@@ -44,3 +44,5 @@ Circle or Start — close the inventory
 Currently, the game consists only of the "Privateer's Hold" dungeon. Basic mechanics have been implemented, including dungeon exploration, combat, looting, skill and level progression, and death.
 
 There are some differences compared to the original game. Specifically, once the music in a dungeon ends, it will be replaced by a track chosen at random from a pool of dungeon-themed pieces. An agent implemented this, and I decided to keep it.
+
+Tested on PPSSPP and an actual PSP-3004. Naturally, while PPSSPP delivers a smooth, fast image, the PSP runs at around 20–25 FPS—much like a subpar computer from the era when TES II was first released.
