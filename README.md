@@ -82,3 +82,4 @@ Updates:
 4. Added books that can be read.
 5. Character progression system, including all skills.
 6. Adjusted the loot and treasure drop system; also updated NPC sounds.
+7. The armor system has been fixed.
