@@ -1,6 +1,6 @@
 Made with Gemini and some help by Opus, GLM and Deepseek.
 
-Copy the folder from the archive to /PSP/GAME. The program looks for the TES II files (the `arena2` and `music` directories) relative to the folder from which it is launched.
+Copy the folder from the archive to /PSP/GAME.
 
 Control version 0.2, dated 11/15/26:
 CONTROLS (WITH THE HUD HIDDEN)
