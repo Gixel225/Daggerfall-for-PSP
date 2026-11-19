@@ -83,3 +83,10 @@ Updates:
 5. Character progression system, including all skills.
 6. Adjusted the loot and treasure drop system; also updated NPC sounds.
 7. The armor system has been fixed.
+
+11/19/26, Version 0.3:
+Updates:
+1. In addition to Privateer's Hold, it is now possible to travel to random dungeons from anywhere in the game. An "extra start" option is available in the menu, which places a random character in a random dungeon. Furthermore, exiting any dungeon (including one in Privateer's Hold) will now trigger a transition to a random dungeon; the game will suggest [dungeon] located in [region]. You may decline this offer, and the next time you trigger the transition, you will be presented with a different random dungeon.
+2. You can now view weapon stats in your inventory without needing to pick up each item; a gear degradation system has also been introduced.
+3. Improved AI for NPCs.
+4. Other minor additions such as dungeon water level parsing, animated water surfaces, swim speed and encumbrance sinking, underwater breath, Water Breathing magic, wall climbing (with skill/race checks and climbing out of water), Steal-mode Lockpicking and door bashing, Open/Climbing/Jumping/Water Breathing/Comprehend Languages spells, monster metal immunities, fixed voice for female player, disease/poison/paralysis mechanics, sprinting drains stamina, etc...
