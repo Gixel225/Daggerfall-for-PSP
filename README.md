@@ -1,4 +1,4 @@
-Made with Gemini and some help by Opus, GLM and Deepseek.
+Made with Gemini and some minor help by Opus
 
 Copy the folder from the archive to /PSP/GAME.
 
