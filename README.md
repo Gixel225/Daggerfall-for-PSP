@@ -90,3 +90,4 @@ Updates:
 2. You can now view weapon stats in your inventory without needing to pick up each item; a gear degradation system has also been introduced.
 3. Improved AI for NPCs.
 4. Other minor additions such as dungeon water level parsing, animated water surfaces, swim speed and encumbrance sinking, underwater breath, Water Breathing magic, wall climbing (with skill/race checks and climbing out of water), Steal-mode Lockpicking and door bashing, Open/Climbing/Jumping/Water Breathing/Comprehend Languages spells, monster metal immunities, fixed voice for female player, disease/poison/paralysis mechanics, sprinting drains stamina, etc...
+5. Reducing NPC activity at distances greater than 15 meters from the player has increased the FPS on the PSP to 25–30.
