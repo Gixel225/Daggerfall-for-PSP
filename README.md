@@ -93,6 +93,7 @@ Updates:
 5. Reducing NPC activity at distances greater than 15 meters from the player has increased the FPS on the PSP to 25–30.
 
 11/20/26, Version 0.4 (Won't work on PSP-1000, experimental version):
+
 Updates:
 A number of relatively minor changes, such as gold/inventory weight limits, immobility when overencumbered, fatigue exhaustion, death (instead of respawn you will thrown into main menu), fixed accessory equipment slot mapping (amulets, rings, bracers, marks, torcs), mechanisms in dungeons (moving bridges, platforms, teleports, traps, etc), finished spells and special features of NPC, ambient sounds in dungeons, etc...
 
