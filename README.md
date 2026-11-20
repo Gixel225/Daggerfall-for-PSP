@@ -72,7 +72,7 @@ The full armor specifications are not yet finalized; for now, the pieces of armo
 
 There are some differences compared to the original game. Specifically, once the music in a dungeon ends, it will be replaced by a track chosen at random from a pool of dungeon-themed pieces and the loot here is a bit more random than in the original. An agent implemented this, and I decided to keep it.
 
-Tested on PPSSPP and an actual PSP-3004. Naturally, while PPSSPP delivers a smooth, fast image, the PSP runs at around 20–25 FPS—much like a subpar computer from the era when TES II was first released.
+Tested on PPSSPP and an actual PSP-3000. Naturally, while PPSSPP delivers a smooth, fast image, the PSP runs at around 20–25 FPS—much like a subpar computer from the era when TES II was first released.
 
 11/15/26, Version 0.2:
 Updates:
@@ -92,10 +92,14 @@ Updates:
 4. Other minor additions such as dungeon water level parsing, animated water surfaces, swim speed and encumbrance sinking, underwater breath, Water Breathing magic, wall climbing (with skill/race checks and climbing out of water), Steal-mode Lockpicking and door bashing, Open/Climbing/Jumping/Water Breathing/Comprehend Languages spells, monster metal immunities, fixed voice for female player, disease/poison/paralysis mechanics, sprinting drains stamina, etc...
 5. Reducing NPC activity at distances greater than 15 meters from the player has increased the FPS on the PSP to 25–30.
 
+11/20/26, Version 0.4 (Won't work on PSP-1000, experimental version):
+Updates:
+A number of relatively minor changes, such as gold/inventory weight limits, immobility when overencumbered, fatigue exhaustion, death (instead of respawn you will thrown into main menu), fixed accessory equipment slot mapping (amulets, rings, bracers, marks, torcs), mechanisms in dungeons (moving bridges, platforms, teleports, traps, etc), finished spells and special features of NPC, ambient sounds in dungeons, etc...
 
+Known problems:
+While tests on PPSSPP went well, issues arose on actual PSP due to changes in the dungeon-loading code. Memory-related problems—such as glitches in combat animations, missing inventory icons, and the loss of collision detection, were resolved on the PSP-3000 by rebuilding the EBOOT with the `PSP_LARGE_MEMORY = 1` parameter. However, purely CPU-related issues, specifically unresponsive controls and a drop in framerate to 15–20 FPS in areas containing more than one NPC, will be addressed in version 0.5.  
 
-
-
+Consider version 0.4 an experimental release; if you want a stable gaming experience, go with version 0.3, it works well, at least on the PSP-3000, and even in its less varied state, version 0.3 is already an unique dungeon crawler with no equivalent on the PSP.
 
 
 
