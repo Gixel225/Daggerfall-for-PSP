@@ -73,7 +73,7 @@ A number of relatively minor changes, such as gold/inventory weight limits, immo
 Known problems:
 While tests on PPSSPP went well, issues arose on actual PSP due to changes in the dungeon-loading code. Memory-related problems—such as glitches in combat animations, missing inventory icons, and the loss of collision detection, were resolved on the PSP-3000 by rebuilding the EBOOT with the `PSP_LARGE_MEMORY = 1` parameter. However, purely CPU-related issues, specifically unresponsive controls and a drop in framerate to 15–20 FPS in areas containing more than one NPC, will be addressed in version 0.5.  
 
-Consider version 0.4 an experimental release; if you want a stable gaming experience, go with version 0.3, it works well, at least on the PSP-3000, and even in its less varied state, version 0.3 is already an unique dungeon crawler with no equivalent on the PSP.
+Consider version 0.4 an experimental release; if you want a stable gaming experience, go with version 0.3, it works well, at least on the PSP-3000, and even in its less finished state, version 0.3 is already an unique dungeon crawler with no equivalent on the PSP.
 
 11/19/26, Version 0.3:
 Updates:
