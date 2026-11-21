@@ -65,6 +65,10 @@ Square — quick-drop an item
 
 Circle or Start — close the inventory
 
+11/21/26, Version 0.4.1:
+Updates:
+The same ver. 0.4 but with fixed performance issues on the physical PSP. This release will be last "dungeon-only" version.
+
 11/20/26, Version 0.4 (Won't work on PSP-1000, experimental version):
 
 Updates:
