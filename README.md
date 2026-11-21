@@ -68,7 +68,7 @@ Circle or Start — close the inventory
 11/21/26, Version 0.4.1:
 
 Updates:
-The same ver. 0.4 but with fixed performance issues on the physical PSP. Game works with 30 FPS (or even higher), and it still will slow down to 15-20 if dungeon is too large (bigger than Privateer's Hold-tier, so not really big amount of such dungeons).
+The same ver. 0.4 but with fixed dungeon code (it turns out that a lot of dungeons were generated with slightly wrong geometry) and fixed performance issues on the physical PSP. Game works at 30 FPS (or even higher), and it still will slow down to 15-20 FPS if dungeon is too large (bigger than Privateer's Hold-tier, so not really big amount of such dungeons).
 
 This release will be last "dungeon-only" version.
 
