@@ -2,86 +2,80 @@ Made with Gemini and some minor help by Opus
 
 Copy the folder from the archive to /PSP/GAME.
 
+HUD Bar Hidden
+
 | Input | Action |
 | --- | --- |
-| Analog Stick | Move forward/back & strafe left/right (`0.16` radial deadzone); steers climb/pitch angle when Levitating or Dungeon Swimming |
+| Analog Stick | Move forward/back & strafe left/right (`0.16` radial deadzone); steers climb/pitch angle when Levitating or Swimming |
 | D-Pad Left / Right or `□` / `○` | Turn camera left / right |
 | D-Pad Up / Down | Look up / look down |
 | `✕` | Look down |
-| `L` (Hold) | Sprint / Run faster (normal speed applies during Levitation) |
-| `R` (Tap) | Melee swing / fire bow |
-| `L` + `R` | Jump / release wall climb (press); float or swim straight up while Levitating or Dungeon Swimming (hold) |
-| Sneak Mode (via HUD `[7]`) | Stealth movement on foot; descend while Levitating or Dungeon Swimming |
+| `L` (Hold) | Sprint |
+| `R` (Tap) | Attack |
+| `L` + `R` | Jump / release wall climb (press); float or swim straight up while Levitating or Swimming (hold) |
 | Hold Stick Forward at Wall | Auto wall-climbing; pull Back (or press `L` + `R`) to disengage |
-| `START` | Context interact (open/close doors, levers, loot corpses/containers, read shelves, enter/exit dungeons, talk/pet NPCs & animals) |
+| `START` | Context interact (open/close doors, levers, loot corpses/containers, read shelves, enter/exit dungeons, interact with NPCs & animals) |
 | `△` | Open Inventory |
 | `L` + `△` | Open Quest Journal & Tutorial Logbook |
 | `L` + D-Pad Down | Open Status Info popup (Page 1: Location/Region/Date/Time; press `✕` for Page 2: Health & Active Effects) |
-| `SELECT` | Toggle Classic Bottom HUD Bar (`MAIN00I0`) |
-| `L` + `SELECT` | Toggle Noclip / Fly Mode |
+| `SELECT` | Toggle HUD Bar |
+| `L` + `SELECT` | Toggle Noclip |
 
-Control version 0.2, dated 11/15/26:
-CONTROLS (WITH THE HUD HIDDEN)
+Noclip
 
-Analog stick – move forward/backward and strafe left/right
+| Input | Action |
+| --- | --- |
+| Analog Stick or D-Pad | Turn & pitch camera |
+| `△` / `✕` | Fly forward / backward along camera look direction |
+| `R` / `L` | Fly straight up / straight down |
+| `L` + `SELECT` | Return to Walk Mode |
 
-D-Pad Left/Right – rotate camera (also Square/Circle)
+HUD Bar opened
 
-D-Pad Up/Down – tilt camera up/down (down also X)
+| Input | Action |
+| --- | --- |
+| D-Pad | Highlight one of the 11 HUD slots |
+| `✕` | Activate highlighted slot:<br>`[0]` Portrait: Character Sheet • `[1]` OPTION: Options Menu • `[2]` Star: Spellbook • `[3]` Eye/Hand/etc: Execute Interaction Mode • `[4]` Sacks: Inventory • `[5]` Swords: Attack • `[6]` Hand with magic stick: Quest Journal and recast spell • `[7]` Feet: Cycle Movement Mode (Walk / Run / Sneak) • `[8]` Map Scroll: World Travel Map (outside) or 3D Dungeon map (dungeons) • `[9]` Campfire: Rest • `[10]` Compass: Status Info |
+| `□` | On `[3]`: cycle Interaction Mode (Steal / Talk / Grab / Info); on `[0]` / `[8]`: open Quest Journal; on `[6]`: recast active spell (camera also pans left slightly) |
+| `△` | Open Quest Journal & Tutorial Logbook |
+| `○` or `SELECT` | Hide HUD Bar |
 
-R – attack
+Inventory & Character Sheet
 
-L – run (hold)
+| Input | Inventory (`INVE00I0`) | Character Sheet (`INFO00I0`) |
+| --- | --- | --- |
+| D-Pad | Navigate |
+| `L` / `R` | Cycle tabs (Weapons & Armor / Magic / Clothing / Ingredients) | Cycle highlighted attribute (in Level-Up stat popup, `L`/`R` cycles stats) |
+| `✕` | Run middle-strip button or apply mode (Equip / Drink Potion / Read Book / Inspect (`INFO`) / Drop (`REMOVE`) / Cast Enchanted Item (`USE`)) | Open selected Skills popup, `Log`, `History`, `Inventory`, `Spells`, or allocate `+1` Bonus Point (`Right` / `✕` in Level-Up mode) |
+| D-Pad Left (Level-Up) | — | Refund `1` allocated Bonus Point |
+| `□` | Quick-drop highlighted item to the ground | Inspect highlighted primary attribute |
+| `△` | Switch to Character Sheet | Switch back to Inventory (after spending all Bonus Points if leveling up) |
+| `○` or `START` | Close Inventory|
 
-L + R – jump
+World Travel Map (ver. 0.5+ only)
 
-Start – action: open door, pull lever, search corpse
+| View | Controls |
+| --- | --- |
+| Tamriel Overview | Analog / D-Pad: Move pointer; `L` / `R`: Jump prev/next region; `△`: Find Location (all regions); `SELECT`: `I'M AT` (jump to current region); `✕`: Enter hovered region (or click `I'M AT` / `EXIT`); `○` / `START`: Close |
+| Region Map | Analog / D-Pad: Move pointer & highlight nearest location; `L` / `R`: Switch map sheet (multi-sheet regions); `□`: Cycle filter (All → Towns → Dungeons → Temples → Homes); `△`: Find Location (region); `SELECT`: `I'M AT`; `✕`: Select location to travel (or click bottom tray `FIND` / `I'M AT` / filter toggles / sheet arrows / `EXIT`); `○`: Back to Overview; `START`: Close |
+| Travel Options | D-Pad Up/Down: Select row (Speed, Transport, Stay, Begin, Exit); Left/Right/`✕`: Toggle Cautious/Reckless, Foot-Horse/Ship, Inns/Camp Out; `✕` on `Begin`: Execute fast travel; `○`: Back to Region Map |
+| Find OSK & Results | D-Pad: Select character / `_GO_`; `✕`: Type char / submit `_GO_` / select match; `□`: Backspace; `L`: Toggle All Regions vs Current Region; `START`: Submit search; `○`: Cancel |
 
-Triangle – open inventory (press again while in the menu to open the character sheet)
+11/23/26, Version 0.5
 
-L + Triangle – open quest log and tutorial
+Updates:
+1. An open world featuring the complete map of TES II, including all regions, climates, RMB (randomly generated building blocks), settlements, skybox backgrounds, citywatch, a day-night cycle, weather, and a fitting soundtrack (with the playlist switching when moving between settlements and the wilderness).
+2. Travel map with fast travel and location search
+3. Fixed the creation of a custom class
+4. You can interact with animals, by pressing the action key (Start), they will make a sound characteristic of their species (this is not present in the original game; it was inspired by a mod for DFU).
+5. When traveling through the wilderness, the game will use the same pool of music tracks as it does for dungeon exteriors. This is an intentional design choice, ensuring that high-energy tracks, like "Sunny Day", do not play while you are out exploring. It's yet another feature that doesn't exist in original.
 
-Select – show/hide HUD
+Performance:
+1. Dungeons – 30 FPS, with constant loading hitches and FPS drops to 15–20 (or even 10–15 in the worst cases). If the dungeon is relatively small, these loading hitches will be less severe.
+2. The open world – a steady 30 FPS (since there’s nothing there but trees).
+3. Settlements — I tested only Daggerfall on an actual PSP, and it ran at approximately 25–30 FPS. As you move through a town, different sections load in, which causes stutters and drops in the frame rate to 15–20 FPS for a few seconds. Presumably, these issues would be less noticeable in smaller settlements.
 
-L + Select – noclip
-
-CONTROLS (WITH THE HUD VISIBLE)
-
-Use the D-Pad to select icons
-
-X — select
-
-Portrait — character sheet (press the square button to open quest log)
-
-Options — settings menu
-
-Star — spellbook
-
-Hand/eye/etc — environment interaction mode (cycle options using Square)
-
-Sacks — inventory
-
-Swords — attack
-
-Hand with magic stick — Quest log (press the square button to repeat a spell)
-
-Feet — movement mode (Walk/Run/Sneak)
-
-Scroll — 3D dungeon map (press the square button to open quest log)
-
-Campfire — rest
-
-INVENTORY
-
-Navigate using the D-Pad
-
-X — select
-
-Triangle — move weapon to the other hand
-
-Square — quick-drop an item
-
-Circle or Start — close the inventory
+At the moment, there is nothing to do on the world map other than walking around, interacting with animals, and fighting NPCs (whether in the wilderness at night or against guards in towns).
 
 11/21/26, Version 0.4.1:
 
