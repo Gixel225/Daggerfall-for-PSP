@@ -72,7 +72,7 @@ Updates:
 4. You can interact with animals, by pressing the action key (Start), they will make a sound characteristic of their species (this is not present in the original game; it was inspired by a mod for DFU).
 5. When traveling through the wilderness, the game will use the same pool of music tracks as it does for dungeon exteriors. This is an intentional design choice, ensuring that high-energy tracks, like "Sunny Day", do not play while you are out exploring. It's yet another feature that doesn't exist in original.
 
-Performance:
+Performance on the PSP (of course PPSSPP works perfectly):
 1. Dungeons – 30 FPS, with constant loading hitches and FPS drops to 15–20 (or even 10–15 in the worst cases). If the dungeon is relatively small, these loading hitches will be less severe.
 2. The open world – a steady 30 FPS (since there’s nothing there but trees).
 3. Settlements — I tested only Daggerfall on an actual PSP, and it ran at approximately 25–30 FPS. As you move through a town, different sections load in, which causes stutters and drops in the frame rate to 15–20 FPS for a few seconds. Presumably, these issues would be less noticeable in smaller settlements.
