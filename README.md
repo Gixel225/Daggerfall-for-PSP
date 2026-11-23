@@ -44,7 +44,7 @@ HUD Bar opened
 
 Inventory & Character Sheet
 
-| Input | Inventory (`INVE00I0`) | Character Sheet (`INFO00I0`) |
+| Input | Inventory | Character Sheet |
 | --- | --- | --- |
 | D-Pad | Navigate |
 | `L` / `R` | Cycle tabs (Weapons & Armor / Magic / Clothing / Ingredients) | Cycle highlighted attribute (in Level-Up stat popup, `L`/`R` cycles stats) |
