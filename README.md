@@ -2,6 +2,24 @@ Made with Gemini and some minor help by Opus
 
 Copy the folder from the archive to /PSP/GAME.
 
+| Input | Action |
+| --- | --- |
+| Analog Stick | Move forward/back & strafe left/right (`0.16` radial deadzone); steers climb/pitch angle when Levitating or Dungeon Swimming |
+| D-Pad Left / Right or `□` / `○` | Turn camera left / right |
+| D-Pad Up / Down | Look up / look down |
+| `✕` | Look down |
+| `L` (Hold) | Sprint / Run faster (normal speed applies during Levitation) |
+| `R` (Tap) | Melee swing / fire bow |
+| `L` + `R` | Jump / release wall climb (press); float or swim straight up while Levitating or Dungeon Swimming (hold) |
+| Sneak Mode (via HUD `[7]`) | Stealth movement on foot; descend while Levitating or Dungeon Swimming |
+| Hold Stick Forward at Wall | Auto wall-climbing; pull Back (or press `L` + `R`) to disengage |
+| `START` | Context interact (open/close doors, levers, loot corpses/containers, read shelves, enter/exit dungeons, talk/pet NPCs & animals) |
+| `△` | Open Inventory |
+| `L` + `△` | Open Quest Journal & Tutorial Logbook |
+| `L` + D-Pad Down | Open Status Info popup (Page 1: Location/Region/Date/Time; press `✕` for Page 2: Health & Active Effects) |
+| `SELECT` | Toggle Classic Bottom HUD Bar (`MAIN00I0`) |
+| `L` + `SELECT` | Toggle Noclip / Fly Mode |
+
 Control version 0.2, dated 11/15/26:
 CONTROLS (WITH THE HUD HIDDEN)
 
