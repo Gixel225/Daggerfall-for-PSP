@@ -96,7 +96,7 @@ While tests on PPSSPP went well, issues arose on actual PSP due to changes in th
 
 Consider version 0.4 an experimental release; if you want a stable gaming experience, go with version 0.3, it works well, at least on the PSP-3000, and even in its less finished state, version 0.3 is already an unique dungeon crawler with no equivalent on the PSP.
 
-11/19/26, Version 0.3:
+11/19/26, Version 0.3 (also last version which, probably, would work on PSP-1000):
 Updates:
 1. In addition to Privateer's Hold, it is now possible to travel to random dungeons from anywhere in the game. An "extra start" option is available in the menu, which places a random character in a random dungeon. Furthermore, exiting any dungeon (including one in Privateer's Hold) will now trigger a transition to a random dungeon; the game will suggest [dungeon] located in [region]. You may decline this offer, and the next time you trigger the transition, you will be presented with a different random dungeon.
 2. You can now view weapon stats in your inventory without needing to pick up each item; a gear degradation system has also been introduced.
