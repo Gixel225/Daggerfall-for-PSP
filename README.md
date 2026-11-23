@@ -66,7 +66,7 @@ World Travel Map (ver. 0.5+ only)
 11/23/26, Version 0.5
 
 Updates:
-1. An open world featuring the complete map of TES II, including all regions, climates, RMB, settlements, skybox backgrounds, citywatch, a day-night cycle, weather, and a fitting soundtrack (with the playlist switching when moving between settlements and the wilderness).
+1. An open world featuring the complete map of TES II, including all regions, climates, RMB, settlements, skybox backgrounds, citywatch, a day-night cycle, weather, and soundtrack (with the playlist switching when moving between settlements and the wilderness).
 2. Travel map with fast travel and location search
 3. Fixed the creation of a custom class
 4. You can interact with animals, by pressing the action key (Start), they will make a sound characteristic of their species (this is not present in the original game; it was inspired by a mod for DFU).
