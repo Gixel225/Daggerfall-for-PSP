@@ -2,6 +2,8 @@ Made with Gemini and some minor help by Opus
 
 Copy the folder from the archive to /PSP/GAME.
 
+Controls
+
 HUD Bar Hidden
 
 | Input | Action |
