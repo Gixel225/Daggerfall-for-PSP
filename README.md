@@ -2,7 +2,7 @@ Made with Gemini and some minor help by Opus
 
 Copy the folder from the archive to /PSP/GAME.
 
-Controls v 0.6, 11/25/26
+Controls v 0.6, 11/24/26
 
 HUD Closed
 
@@ -239,7 +239,7 @@ World Travel Map (ver. 0.5+ only)
 | Travel Options | D-Pad Up/Down: Select row (Speed, Transport, Stay, Begin, Exit); Left/Right/`✕`: Toggle Cautious/Reckless, Foot-Horse/Ship, Inns/Camp Out; `✕` on `Begin`: Execute fast travel; `○`: Back to Region Map |
 | Find OSK & Results | D-Pad: Select character / `_GO_`; `✕`: Type char / submit `_GO_` / select match; `□`: Backspace; `L`: Toggle All Regions vs Current Region; `START`: Submit search; `○`: Cancel |
 
-11/25/26, Version 0.6
+11/24/26, Version 0.6
 
 Updates:
 1. Controls have been modified (in particular, the HUD is now closer to the original)
