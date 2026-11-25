@@ -19,7 +19,7 @@ HUD Closed
 | D-Pad Right | Cast active spell |
 | D-Pad Down | Cycle movement gait (`Walk` / `Run` / `Sneak`) / Descend (while Levitating or Swimming) |
 | L + D-Pad Up | Open Inventory |
-| L + D-Pad Right | Open Automap (Town or Dungeon map) |
+| L + D-Pad Right | Open Automap |
 | L + D-Pad Left | Open Quest Journal / Tutorial / Notebook |
 | L + D-Pad Down | Show Status Info (Location, Date/Time, Health) |
 | START | Open Options Menu |
