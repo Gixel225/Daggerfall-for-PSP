@@ -2,7 +2,183 @@ Made with Gemini and some minor help by Opus
 
 Copy the folder from the archive to /PSP/GAME.
 
-Controls
+Controls v 0.6, 11/25/26
+
+HUD Closed
+
+| Input | Action |
+| --- | --- |
+| Analog Stick | Move forward/back & strafe left/right (steers vertical pitch while Levitating or Swimming; push into a wall to Climb, pull back to detach) |
+| △ / ✕ | Look Up / Look Down |
+| □ / ○ | Look Left / Look Right |
+| R | Attack (draws weapon first if sheathed) |
+| L (Hold) | Sprint + shortcut modifier |
+| L + R | Jump / Ascend (while Levitating or Swimming) / Detach from wall (while Climbing) |
+| D-Pad Up | Activate / Interact (uses current interaction mode) |
+| D-Pad Left | Cycle Interaction Mode (`Steal` / `Grab` / `Info` / `Talk`) |
+| D-Pad Right | Cast active spell |
+| D-Pad Down | Cycle movement gait (`Walk` / `Run` / `Sneak`) / Descend (while Levitating or Swimming) |
+| L + D-Pad Up | Open Inventory |
+| L + D-Pad Right | Open Automap (Town or Dungeon map) |
+| L + D-Pad Left | Open Quest Journal / Tutorial / Notebook |
+| L + D-Pad Down | Show Status Info (Location, Date/Time, Health) |
+| START | Open Options Menu |
+| SELECT | Toggle Bottom HUD Bar |
+| L + SELECT | Open Travel Map |
+
+HUD Opened
+
+| Input | Action |
+| --- | --- |
+| D-Pad | Highlight HUD icon slot (`0–10`) |
+| ✕ | Activate highlighted HUD icon |
+| ○ / SELECT | Close HUD Bar |
+
+| Slot | HUD Icon Function |
+| --- | --- |
+| Portrait | Character Sheet |
+| OPTIONS | Options Menu (`Save Game`, `Load Game`, `Controls`, Settings) |
+| Star | Spellbook |
+| Hand/Eye/etc | Cycle Interaction Mode (`Steal` / `Grab` / `Info` / `Talk`) |
+| Sacks | Inventory |
+| Swords | Draw / Sheathe Weapon |
+| Hand with magic stick | Use Magic Item |
+| Legs | Transport |
+| Scroll | Automap |
+| Campfire | Rest |
+| Compass | Status Info (`Location`, `Date/Time`, `Health`) |
+
+Inventory
+
+| Screen | Input | Action |
+| --- | --- | --- |
+| Inventory | D-Pad | Navigate |
+|  | L / R | Switch Inventory tabs |
+|  | ✕ | Activate selected option |
+|  | △ | Equip to off-hand / Open Character Sheet |
+|  | □ | Drop selected item |
+|  | ○ / START | Close Inventory |
+| Character Sheet | L / R | Move Stat cursor |
+|  | □ | View selected Stat details |
+|  | △ | Return to Inventory |
+|  | ○ / START | Close |
+| Loot Window | D-Pad Up / Down | Select item |
+|  | ✕ | Take selected item |
+|  | □ | Take all items |
+|  | ○ / △ / START | Close Loot Window |
+
+Maps
+
+| Screen | Input | Action |
+| --- | --- | --- |
+| Town automap | Analog Stick / D-Pad | Pan map |
+|  | L / R | Zoom Out / Zoom In |
+|  | □ / SELECT | Center map on player |
+|  | △ | Toggle discovered building labels |
+|  | ✕ | Inspect building under crosshair |
+|  | ○ / START | Exit Automap |
+| Dungeon Automap | D-Pad | Orbit camera yaw / pitch |
+|  | Analog Stick | Pan map |
+|  | L / R | Zoom Out / Zoom In |
+|  | □ | Reset camera view |
+|  | ✕ / ○ / START | Exit Automap |
+| Travel Map | Analog Stick / D-Pad | Move map cursor |
+|  | L / R | Cycle regions |
+|  | SELECT | Center on current location |
+|  | △ | Open `Find` location keyboard |
+|  | ✕ | Open selected region / Exit |
+|  | ○ / START | Exit Travel Map |
+| Region Map | Analog Stick / D-Pad | Move cursor |
+|  | L / R | Switch map sheets |
+|  | □ | Cycle location type filters |
+|  | SELECT | Center on current location |
+|  | △ | Open `Find` location keyboard |
+|  | ✕ | Confirm destination |
+|  | ○ | Return to Travel map |
+|  | START | Exit Travel Map |
+| Travel Options Popup | D-Pad Up / Down | Select row |
+|  | D-Pad Left / Right | Toggle travel speed / transport / buttons |
+|  | ✕ | Confirm |
+|  | ○ | Cancel |
+| Find Keyboard | D-Pad | Navigate character grid |
+|  | ✕ | Type character / `GO` |
+|  | □ | Backspace |
+|  | L | Toggle all-regions search |
+|  | START | Submit search |
+|  | ○ | Back (Match List: Up/Down, ✕ select, ○ cancel) |
+
+Dialogue
+
+| Screen | Input | Action |
+| --- | --- | --- |
+| NPC Talk Window | D-Pad Left / Right | Switch topic category |
+|  | D-Pad Up / Down | Select topic |
+|  | L / R or Analog Up / Down | Scroll response log |
+|  | △ | Cycle speech tone (`Polite` / `Normal` / `Blunt`) |
+|  | □ | Copy current reply to Notebook |
+|  | ✕ | Ask selected topic |
+|  | ○ / START | Close dialogue |
+| Service Menu | D-Pad Up / Down | Select service |
+|  | ✕ | Confirm selection |
+|  | ○ / START | Exit menu |
+| Tavern Room & Food | D-Pad Up / Down | Adjust days (`±1`) or select food/drink |
+|  | L / R | Adjust days (`±10`) |
+|  | D-Pad Left / Right | Toggle `Yes` / `No` in room confirmation popup |
+|  | ✕ | Order / Confirm |
+|  | ○ / START | Back |
+| Trade | D-Pad Left / Right | Switch column |
+|  | D-Pad Up / Down | Select item or action button |
+|  | L / R | Switch inventory category tab |
+|  | ✕ | Move item to/from basket or trigger highlighted action |
+|  | △ | Inspect hovered item details |
+|  | □ | Open checkout confirmation popup |
+|  | ○ / START | Restore basket and exit |
+| Bank | D-Pad | Navigate banking actions / Amount field (`Left/Right` = `±1000` gp) |
+|  | L / R | Decrease / Increase amount (`±100` gp) |
+|  | □ | Cycle preset amounts (`100` → `100,000` gp) |
+|  | ✕ | Execute action / open House or Ship catalog / `+500` gp on Amount row |
+|  | ○ / START | Exit Bank (Confirm dialog: Left/Right, ✕ confirm, ○ cancel) |
+| Buy House / Buy Ship | D-Pad Up / Down | Select property or ship |
+|  | D-Pad Left / Right | Switch focus between List, `BUY`, and `EXIT` |
+|  | ✕ | Purchase / Exit |
+|  | ○ / START | Back to Bank |
+
+Other
+
+| Screen | Input | Action |
+| --- | --- | --- |
+| Spellbook | D-Pad Up / Down | Select spell |
+|  | ✕ | Cast selected spell |
+|  | □ | Switch to `Use Magic Item` |
+|  | ○ / START | Close Spellbook |
+| Use Magic Item / Create / Identify | D-Pad Up / Down | Select item |
+|  | ✕ | Use / Select |
+|  | □ | Return to Spellbook (from Use Magic Item) |
+|  | ○ / START | Close |
+| Transport | D-Pad Up / Down | Select mode |
+|  | ✕ | Confirm |
+|  | ○ / START | Cancel |
+| Rest | D-Pad Left / Right | Select rest mode |
+|  | D-Pad Up / Down | Adjust duration (`1–24` hours) |
+|  | ✕ | Start / Stop resting |
+|  | ○ / START | Exit |
+| Quest Journal / Notebook | □ / △ | Switch tab |
+|  | D-Pad Left / Right | Change lesson (on Tutorial tab) |
+|  | D-Pad Up / Down | Scroll entries |
+|  | ○ / START | Exit |
+| Book Reader | D-Pad Up / Down | Scroll current page |
+|  | D-Pad Left / L | Previous page |
+|  | D-Pad Right / R | Next page |
+|  | ✕ / ○ / START | Close book |
+| Options / Pause Menu | D-Pad | Navigate options & adjust sliders |
+|  | ✕ | Select / Toggle (`Save`, `Load`, `Controls`, etc.) |
+|  | ○ / START | Resume game |
+| Popups | D-Pad Up / Down | Scroll text |
+|  | D-Pad Left / Right | Toggle `Yes` / `No` or Riddle / Recall choice |
+|  | ✕ | Confirm |
+|  | ○ / START | Cancel / Close |
+
+Controls v 0.2, 11/15/26
 
 HUD Bar Hidden
 
@@ -62,6 +238,15 @@ World Travel Map (ver. 0.5+ only)
 | Region Map | Analog / D-Pad: Move pointer & highlight nearest location; `L` / `R`: Switch map sheet (multi-sheet regions); `□`: Cycle filter (All → Towns → Dungeons → Temples → Homes); `△`: Find Location (region); `SELECT`: `I'M AT`; `✕`: Select location to travel (or click bottom tray `FIND` / `I'M AT` / filter toggles / sheet arrows / `EXIT`); `○`: Back to Overview; `START`: Close |
 | Travel Options | D-Pad Up/Down: Select row (Speed, Transport, Stay, Begin, Exit); Left/Right/`✕`: Toggle Cautious/Reckless, Foot-Horse/Ship, Inns/Camp Out; `✕` on `Begin`: Execute fast travel; `○`: Back to Region Map |
 | Find OSK & Results | D-Pad: Select character / `_GO_`; `✕`: Type char / submit `_GO_` / select match; `□`: Backspace; `L`: Toggle All Regions vs Current Region; `START`: Submit search; `○`: Cancel |
+
+11/25/26, Version 0.6
+
+Updates:
+1. Controls have been modified (in particular, the HUD is now closer to the original)
+2. Building interiors (now you can walk around not just on the streets).
+3. Dialogues with NPCs, who can now provide hints about a location's whereabouts or simply say something.
+4. You can trade in shops, rent a room at an inn, buy food there, and deposit money in a bank (or purchase property through one).
+5. Other minor elements, such as a city map or a slowdown applied to the player’s attacks (to prevent them from killing NPCs too quickly, an adjustment made to bring the combat speed closer to that of the original game).
 
 11/23/26, Version 0.5
 
