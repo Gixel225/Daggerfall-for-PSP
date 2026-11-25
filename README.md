@@ -249,7 +249,7 @@ Updates:
 5. Other minor elements, such as a city map or a slowdown applied to the player’s attacks (to prevent them from killing NPCs too quickly, an adjustment made to bring the combat speed closer to that of the original game).
 
 Performance on the PSP:
-Overall, the game runs at 25–30 FPS (with unavoidable, multi-second freezes whenever new chunks are loaded). Medium and small dungeons, interiors, and wilderness areas load in a few seconds, while large dungeons and cities can take 20–30 seconds to load.
+Overall, the game runs at 25–30 FPS (with unavoidable, few-second slow downs whenever new chunks are loaded). Medium and small dungeons, interiors, and wilderness areas load in a few seconds, while large dungeons and cities can take 20–30 seconds to load.
 
 Known issues:
 Sometimes in cities, you cannot enter buildings; the script simply fails to trigger. This can be fixed by traveling to another settlement.
