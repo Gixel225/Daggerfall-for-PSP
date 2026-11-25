@@ -1,3 +1,5 @@
+My sincere thanks to the Daggerfall Unity team for their long and highly significant work!
+
 Made with Gemini and some minor help by Opus
 
 Copy the folder from the archive to /PSP/GAME.
