@@ -239,6 +239,18 @@ World Travel Map (ver. 0.5+ only)
 | Travel Options | D-Pad Up/Down: Select row (Speed, Transport, Stay, Begin, Exit); Left/Right/`✕`: Toggle Cautious/Reckless, Foot-Horse/Ship, Inns/Camp Out; `✕` on `Begin`: Execute fast travel; `○`: Back to Region Map |
 | Find OSK & Results | D-Pad: Select character / `_GO_`; `✕`: Type char / submit `_GO_` / select match; `□`: Backspace; `L`: Toggle All Regions vs Current Region; `START`: Submit search; `○`: Cancel |
 
+11/25/26, Version 0.7
+
+Updates:
+1. You can now utilize the services offered by temples and guilds (such as purchasing spells, training, or curing diseases). Certain services, like Daedra summoning, are currently unavailable, as there is no quest system in place for advancing a player's rank.
+2. It is now possible to join a guild or a church (though this is currently purely symbolic).
+3. A new extra start - instead of a random character equipped with standard, class-based gear, the game will now generate a character with randomized equipment and starting funds (ranging from a substantial amount down to nothing at all, even a completely destitute, naked character). This can also include a home, a horse, and/or a ship; a random starting level (1–10); membership in one or more factions (0–2); and a random starting location, anywhere from the wilderness or a dungeon to your own home, a ship, or a city.
+4. The save system has been overhauled; it now uses the original interface (supporting up to 6 save slots) and no longer causes deceased NPCs to respawn.
+5. Various minor fixes have been implemented, including corrected water textures in dungeons and along the coastline, the ability to climb ladders to reach house attics, and a fix for the system that governs the spawning of hostile NPCs at night.
+
+Performance on the PSP:
+It’s no different from 0.6 (perhaps slightly better). When selecting extra start, loading can take anywhere from 10–15 seconds to over a minute (if the game chooses a starting location inside a player-owned house, it takes a very long time to determine the exact spot).
+
 11/24/26, Version 0.6
 
 Updates:
