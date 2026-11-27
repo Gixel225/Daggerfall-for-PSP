@@ -232,14 +232,10 @@ Inventory & Character Sheet
 | `△` | Switch to Character Sheet | Switch back to Inventory (after spending all Bonus Points if leveling up) |
 | `○` or `START` | Close Inventory|
 
-World Travel Map (ver. 0.5+ only)
+11/27/26, Version 0.7.1
 
-| View | Controls |
-| --- | --- |
-| Tamriel Overview | Analog / D-Pad: Move pointer; `L` / `R`: Jump prev/next region; `△`: Find Location (all regions); `SELECT`: `I'M AT` (jump to current region); `✕`: Enter hovered region (or click `I'M AT` / `EXIT`); `○` / `START`: Close |
-| Region Map | Analog / D-Pad: Move pointer & highlight nearest location; `L` / `R`: Switch map sheet (multi-sheet regions); `□`: Cycle filter (All → Towns → Dungeons → Temples → Homes); `△`: Find Location (region); `SELECT`: `I'M AT`; `✕`: Select location to travel (or click bottom tray `FIND` / `I'M AT` / filter toggles / sheet arrows / `EXIT`); `○`: Back to Overview; `START`: Close |
-| Travel Options | D-Pad Up/Down: Select row (Speed, Transport, Stay, Begin, Exit); Left/Right/`✕`: Toggle Cautious/Reckless, Foot-Horse/Ship, Inns/Camp Out; `✕` on `Begin`: Execute fast travel; `○`: Back to Region Map |
-| Find OSK & Results | D-Pad: Select character / `_GO_`; `✕`: Type char / submit `_GO_` / select match; `□`: Backspace; `L`: Toggle All Regions vs Current Region; `START`: Submit search; `○`: Cancel |
+Updates:
+Various little upgrades such creation of custom spells and potions, item enchanting, an arrest and trial system, the removal of custom fonts and windows from notifications and letters, the ability to steal from containers in taverns, an overhauled shoplifting system, wearable light sources (lanterns and torches), the ability to drop gold and stackable items (such as arrows) in specific quantities from your inventory, fully implemented services (including those for the Dark Brotherhood, witches, and the Thieves Guild), fixes for RMB-sprites, glowing street lamps and lit windows on houses at night, interior fixes, letters from the Dark Brotherhood (triggered by kills) and the Thieves Guild (triggered by thefts), the ability to remove spells from your spellbook, the option to sell items directly from a cart (if owned), fixes for bank promissory note transactions, corrected entry perks for joining guilds, orders, or temples, guards that attack hostile NPCs, fixes for various inventory sprites, and much more.
 
 11/25/26, Version 0.7
 
