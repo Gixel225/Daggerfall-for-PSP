@@ -232,6 +232,11 @@ Inventory & Character Sheet
 | `△` | Switch to Character Sheet | Switch back to Inventory (after spending all Bonus Points if leveling up) |
 | `○` or `START` | Close Inventory|
 
+11/28/26, Version 0.7.2
+
+Updates:
+Non-plotline-related random quests based on 150+ templates. They can be obtained from ordinary NPCs found in homes, taverns, shops, and palaces, as well as within various organizations (temples, guilds, etc.). At present, these quests contain many bugs (for instance, an incorrect delivery address might be provided). Debugging is currently underway.
+
 11/27/26, Version 0.7.1
 
 Updates:
